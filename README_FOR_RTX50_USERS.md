@@ -8,7 +8,10 @@
 
 RTX 50系列显卡使用全新的**sm_120架构**，目前主流PyTorch稳定版还不支持。很多人遇到：
 
-**特别说明**: 在Ubuntu 22.04上配置RTX 50环境特别困难，经过无数次尝试才成功。升级到Ubuntu 24.04后，环境配置变得容易很多。强烈建议使用Ubuntu 24.04！
+**特别说明**:
+- Ubuntu 22.04 **可以成功配置**（作者在22.04上稳定运行了一周多），但配置过程较为困难，需要更多调试
+- Ubuntu 24.04 环境配置相对容易，对新手更友好
+- 两个版本都支持，但24.04推荐给初学者
 
 - ❌ `CUDA error: no kernel image is available for execution on the device`
 - ❌ bitsandbytes量化训练失败
